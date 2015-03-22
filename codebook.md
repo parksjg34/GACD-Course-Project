@@ -9,15 +9,15 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 Here are the data for the project: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-##Steps to satisfy the Course Project's definition:
+##Please refer to README.md for overview and steps of the code in run_analysis.R
 
-    1. After loading and unzipping the data, data is aggregated (rbind and cbind functions) into a single dataset. 
-    2. Columns with Mean or Standardization are extracted out into a new dataset title 'DataSetDefined'.
-    3. Activity Names are supplied to 'DataSetDefined' from 'activiy_labels.txt' for descriptive purposes.
-    4. Acronyms in data names are replaced with their descriptive properties (gsub function).
-    5. TidyData set is created with averages (aggregate).
+##Variables:
 
-##Description of steps are documented in the code for ease of follow
+-Variables prefixed with "File" are the raw data 
+-Variables prefixed with "Data" are aggregations or manipulations of datasets
+-Dataset - First pass of aggregation which combines all of the raw data
+-DataSetDefined - Second pass of manipulation to satisfy the requirement of Mean and Standard Deviation
+-TidyData - Final Pass of manipulation in which data is scrubbed for easy analysis
 
 ##Feature.txt
 
