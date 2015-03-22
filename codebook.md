@@ -13,11 +13,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ##Variables:
 
--Variables prefixed with "File" are the raw data 
--Variables prefixed with "Data" are aggregations or manipulations of datasets
--Dataset - First pass of aggregation which combines all of the raw data
--DataSetDefined - Second pass of manipulation to satisfy the requirement of Mean and Standard Deviation
--TidyData - Final Pass of manipulation in which data is scrubbed for easy analysis
+1. Variables prefixed with "File" are the raw data 
+2. Variables prefixed with "Data" are aggregations or manipulations of datasets
+3. Dataset - First pass of aggregation which combines all of the raw data
+4. DataSetDefined - Second pass of manipulation to satisfy the requirement of Mean and Standard Deviation
+5. TidyData - Final Pass of manipulation in which data is scrubbed for easy analysis
 
 ##Feature.txt
 
